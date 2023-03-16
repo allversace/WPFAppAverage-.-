@@ -1,0 +1,26 @@
+<Window x:Class="testCsharp.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:local="clr-namespace:testCsharp"
+mc:Ignorable="d"
+        MaxHeight="0"
+        MinHeight="450"
+        MaxWidth="0"
+        MinWidth="825"
+Title="Средний бал" Height="450" Width="800">
+    <Grid>
+        <Label Content="Кол-во 5" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="five" HorizontalAlignment="Left" Margin="10,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Кол-во 4" HorizontalAlignment="Left" Margin="234,114,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="four" HorizontalAlignment="Left" Margin="234,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Кол-во 3" HorizontalAlignment="Left" Margin="481,114,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Кол-во 2" HorizontalAlignment="Left" Margin="700,114,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="three" HorizontalAlignment="Left" Margin="481,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="two" HorizontalAlignment="Left" Margin="700,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <Button Content="Рассчитать" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="result" HorizontalAlignment="Center" Margin="0,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
